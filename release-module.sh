@@ -40,7 +40,7 @@ parse_arguments "$@"
 # Define in cTRANSLATE which files and directories must be scanned for
 # translatable strings. Note: translations are built from the original sources,
 # independent of the files marked for distribution in copy_files.
-cTRANSLATE=(Opal)  # options: "Opal" and/or "src"
+cTRANSLATE=()  # options: "Opal" and/or "src"
 
 # Edit the copy_files() function if any additional copy steps are necessary. By
 # default, documentation is generated, and QML and C++ sources will be copied. It

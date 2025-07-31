@@ -3,27 +3,21 @@ SPDX-FileCopyrightText: 2023-2025 Mirian Margiani
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
-# Template for new Opal modules
+# [WIP] PropertyMacros
 
-Copy this repository to setup a new Opal module.
+C++ module for creating properties in Qt projects
 
-- [ ] Create a local copy of the contents of this repository.
-- [ ] Run `setup.sh` and follow the instructions.
-- [ ] Import your source code to `Opal/MyModule/` and/or `src/` and write documentation.
-- [ ] Add an example to `README.md`.
-- [ ] Update `release-module.sh`: if your module has no translations, set `cTRANSLATE=(Opal)` to `cTRANSLATE=()`
-- [ ] Remove this introduction from `README.md`.
-- [ ] Remove the `src/` or `Opal/` directories if your module is fully written in QML or in C++.
-- [ ] Add screenshots to `doc/` and update `README.md` accordingly.
-- [ ] Run `./release-module.sh` to build the docs and create a release bundle.
+This module provides C++ macros that simplify adding properties to Qt objects.
 
-<hr>
 
-# MyModule
+**To do:**
 
-Brief description of the module.
+- [ ] write documentation
+- [ ] write examples
+- [ ] include in gallery
+- [ ] release
 
-Longer description of which problem the module solves, and how it makes life easier.
+This module is already in use in some apps: [File Browser](https://github.com/ichthyosaurus/harbour-file-browser), [Weather](https://github.com/ichthyosaurus/harbour-meteoswiss)
 
 
 ## Usage
@@ -31,7 +25,7 @@ Longer description of which problem the module solves, and how it makes life eas
 ```{qml}
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import Opal.MyModule 1.0
+import Opal.PropertyMacros 1.0
 
 MyComponent {
     // ...
@@ -40,17 +34,7 @@ MyComponent {
 
 ## Screenshots
 
-Screenshots can be found in the [doc](doc/) directory.
-
-<!--
-| 1. | 2. |
-|-|-|
-| <img src="./doc/screenshot-01.webp" width="600" /> | <img src="./doc/screenshot-02.webp" width="600" /> |
-
-| 1. | 2. | 3. |
-|-|-|-|
-| <img src="./doc/screenshot-01.webp" width="600" /> | <img src="./doc/screenshot-02.webp" width="600" /> | <img src="./doc/screenshot-03.webp" width="600" /> |
--->
+This is a purely technical module.
 
 ## How to use
 
@@ -100,7 +84,7 @@ details on how to translate date formats to your local format.
 ## License
 
     Copyright (C)  Mirian Margiani
-    Program: opal-mymodule
+    Program: opal-propertymacros
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
