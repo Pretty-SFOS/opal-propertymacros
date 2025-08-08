@@ -5,6 +5,6 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 
 # Changelog
 
-## 1.0.0 (YYYY-MM-DD)
+## 0.2.0 (2025-08-08)
 
-- first public release
+- First public release
